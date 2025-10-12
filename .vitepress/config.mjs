@@ -81,5 +81,5 @@ export default defineConfig({
       }
     },
   },
-  base: '/',
+  base: '/blog/',
 })
