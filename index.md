@@ -16,6 +16,9 @@ hero:
     - theme: alt
       text: API 示例
       link: /api-examples
+    - theme: alt
+      text: 序章
+      link: /VueSourceCode/preface.md
 
 features:
   - title: Feature A
