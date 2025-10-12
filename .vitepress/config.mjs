@@ -80,5 +80,6 @@ export default defineConfig({
         }
       }
     },
-  }
+  },
+  base: '/',
 })
