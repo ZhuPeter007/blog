@@ -3,47 +3,83 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   base: '/blog/',
+  appearance: 'dark', // 设置默认为暗色模式
   head: [
       [
         'link',
-        { rel: 'icon', href: '/blog/yinyang.svg' }
+        { rel: 'icon', href: '/blog/star.svg' }
       ]
   ],
-  title: "带派不老铁",
+  title: "Leo's blog",
   description: "A VitePress Site",
   themeConfig: {
     outline: 'deep',
     outlineTitle: '大纲',
     // https://vitepress.dev/reference/default-theme-config
     logo: {
-      src: '/yinyang.svg',
+      src: '/star.svg',
       alt: 'VitePress Logo'
     },
     nav: [
-      { text: '家',items:[
-          { text: '关于我', link: '/about' },
-          { text: '项目', link: '/project' },
-        ]
+      {
+        text: '关于我',
+        items:[
+          { text: '我的随笔', link: '/a' },
+        ],
       },
-      { text: '演示', link: '/markdown-examples' }
+      {
+        text: '前端相关',
+        items:[
+          { text: 'Vue源码', link: '/front-end/VueSourceCode/preface' },
+          { text: 'JS知识库', link: '/front-end/' },
+        ],
+      },
+      {
+        text: '后端相关',
+        items:[
+          { text: 'FastAPI', link: '/front-end/start' },
+        ],
+      },
+      {
+        text: '作品集',
+        items:[
+          { text: '正在施工', link: '' },
+        ],
+
+      },
     ],
 
-    sidebar: [
-      {
-        text: 'Examples',
-        items: [
-          { text: 'Markdown 演示', link: '/markdown-examples' },
-          { text: 'Runtime API 演示', link: '/api-examples' }
-        ]
-      },
-      {
-        text: 'Examples2',
-        items: [
-          { text: 'Markdown 演示2', link: '/markdown-examples' },
-          { text: 'Runtime API 演示2', link: '/api-examples' }
-        ]
-      }
-    ],
+    //专属侧边栏（特殊路径生效）
+    sidebar: {
+      //Vue源码
+      '/front-end/VueSourceCode/': [
+        {
+          text: 'Vue源码',
+          collapsible: true,
+          items: [
+            {
+              text: '序章',
+              link: '/front-end/VueSourceCode/preface'
+            },
+            {
+              text: '第一章 数据驱动',
+              link: '/front-end/VueSourceCode/chapter1'
+            },
+            {
+              text: '第二章 虚拟DOM',
+              link: '/front-end/VueSourceCode/chapter2'
+            },
+          ]
+        }
+      ],
+      // 后端开发
+      '/back-end/': [
+        {
+          text: 'API 参考',
+          items: ['/api/core', '/api/utils']
+        }
+      ]
+    },
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' },
