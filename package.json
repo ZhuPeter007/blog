@@ -1,5 +1,6 @@
 {
   "devDependencies": {
+    "nprogress-v2": "^1.1.10",
     "vitepress": "^1.6.4"
   },
   "scripts": {

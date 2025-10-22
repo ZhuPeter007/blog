@@ -21,8 +21,6 @@ onUnmounted(() => {
   }
 })
 const { frontmatter: fm } = useData()
-
-
 </script>
 
 <template>

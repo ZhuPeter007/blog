@@ -31,7 +31,7 @@ export default defineConfig({
         text: '前端相关',
         items:[
           { text: 'Vue源码', link: '/front-end/VueSourceCode/preface' },
-          { text: 'JS知识库', link: '/front-end/' },
+          { text: 'JS知识库', link: '/front-end/JSKnowledgeBase/chapter1' },
         ],
       },
       {
@@ -45,7 +45,6 @@ export default defineConfig({
         items:[
           { text: '正在施工', link: '' },
         ],
-
       },
     ],
 
@@ -71,6 +70,67 @@ export default defineConfig({
             },
           ]
         }
+      ],
+      //JS知识库
+      '/front-end/JSKnowledgeBase/': [
+          {
+            text: 'JS知识库',
+            collapsible: true,
+            items: [
+              {
+                text: '一 数据类型及基本变化',
+                link: '/front-end/JSKnowledgeBase/chapter1'
+              },
+              {
+                text: '二 深浅拷贝、闭包、作用域链',
+                link: '/front-end/JSKnowledgeBase/chapter2'
+              },
+              {
+                text: '三 原型、原型链',
+                link: '/front-end/JSKnowledgeBase/chapter3'
+              },
+              {
+                text: '四 继承的6种方式',
+                link: '/front-end/JSKnowledgeBase/chapter4'
+              },
+              {
+                text: '五 this指向，手搓new',
+                link: '/front-end/JSKnowledgeBase/chapter5'
+              },
+              {
+                text: '六 typeof与instanceof',
+                link: '/front-end/JSKnowledgeBase/chapter6'
+              },
+              {
+                text: '七 上下文，执行栈',
+                link: '/front-end/JSKnowledgeBase/chapter7'
+              },
+              {
+                text: '八 事件模型、事件委托',
+                link: '/front-end/JSKnowledgeBase/chapter8'
+              },
+              {
+                text: '九 浏览器对象模型BOM',
+                link: '/front-end/JSKnowledgeBase/chapter9'
+              },
+              {
+                text: '十 老朋AJAX',
+                link: '/front-end/JSKnowledgeBase/chapter10'
+              },
+              {
+                text: '十一 老朋RepExp',
+                link: '/front-end/JSKnowledgeBase/chapter11'
+              },
+              {
+                text: '十二 ES6中的Promise',
+                link: '/front-end/JSKnowledgeBase/chapter12'
+              },
+              {
+                text: '十三 浏览器的事件循环',
+                link: '/front-end/JSKnowledgeBase/chapter13'
+              },
+            ]
+          }
       ],
       // 后端开发
       '/back-end/': [

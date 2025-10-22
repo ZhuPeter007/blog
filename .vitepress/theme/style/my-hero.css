@@ -1,0 +1,56 @@
+@keyframes fontEmerge
+{
+    0% {
+        letter-spacing: -20px;
+        filter: blur(4px);
+        opacity: 0.3;
+    }
+
+    100% {
+        filter: blur(0);
+        opacity: 1;
+    }
+}
+@keyframes fontEmerge2
+{
+    0% {
+        letter-spacing: -15px;
+        filter: blur(4px);
+        opacity: 0.3;
+    }
+
+    100% {
+        filter: blur(0);
+        opacity: 1;
+    }
+}
+@keyframes fontEmerge3
+{
+    0% {
+        letter-spacing: -10px;
+        filter: blur(4px);
+        opacity: 0.3;
+    }
+
+    100% {
+        filter: blur(0);
+        opacity: 1;
+    }
+}
+@keyframes emerge
+{
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+.VPHero .container .main .tagline{
+    animation: fontEmerge .8s;
+}
+.VPHero .container .main .actions a{
+    animation: emerge 1s;
+}
+.VPFeatures .items .item .VPLink .box .details{
+    animation: fontEmerge2 1s;
+}
+.VPFeatures .items .item .VPLink .box .title{
+    animation: fontEmerge3 1s;
+}

@@ -18,7 +18,7 @@ hero:
       link: /api-examples
     - theme: brand
       text: 序章
-      link: /VueSourceCode/preface.md
+      link: /front-end/VueSourceCode/preface.md
 
 features:
   - title: 坚持
