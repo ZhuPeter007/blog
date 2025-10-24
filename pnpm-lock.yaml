@@ -7,6 +7,10 @@ settings:
 importers:
 
   .:
+    dependencies:
+      '@fancyapps/ui':
+        specifier: ^6.1.0
+        version: 6.1.0
     devDependencies:
       nprogress-v2:
         specifier: ^1.1.10
@@ -270,6 +274,9 @@ packages:
     engines: {node: '>=12'}
     cpu: [x64]
     os: [win32]
+
+  '@fancyapps/ui@6.1.0':
+    resolution: {integrity: sha512-CPBr2wo+XL1Jb179sgZucBdI5NTthwdaHH23xcnwjxt3ZhOMU4UaE7b9qohisZYT5hdwIhfJedJri9RdBWb7jg==}
 
   '@iconify-json/simple-icons@1.2.54':
     resolution: {integrity: sha512-OQQYl8yC5j3QklZOYnK31QYe5h47IhyCoxSLd53f0e0nA4dgi8VOZS30SgSAbsecQ+S0xlGJMjXIHTIqZ+ML3w==}
@@ -1017,6 +1024,8 @@ snapshots:
 
   '@esbuild/win32-x64@0.21.5':
     optional: true
+
+  '@fancyapps/ui@6.1.0': {}
 
   '@iconify-json/simple-icons@1.2.54':
     dependencies:

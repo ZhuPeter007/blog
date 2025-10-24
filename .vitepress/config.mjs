@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   base: '/blog/',
-  appearance: 'dark', // 设置默认为暗色模式
+  appearance: 'dark',
   head: [
       [
         'link',
@@ -187,5 +187,18 @@ export default defineConfig({
         }
       }
     },
+
+    lastUpdated:{
+      text: '最后更新时间',
+      formatOptions: {
+        dateStyle: 'full',
+        timeStyle: 'short'
+      }
+    },
+
+    docFooter: {
+      prev: '上一页',
+      next: '下一页'
+    }
   }
 })

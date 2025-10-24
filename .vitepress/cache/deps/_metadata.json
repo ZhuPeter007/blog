@@ -1,50 +1,56 @@
 {
-  "hash": "1ca7e4cd",
+  "hash": "c45287cb",
   "configHash": "cd86d4dd",
-  "lockfileHash": "2b6419ad",
-  "browserHash": "828530d9",
+  "lockfileHash": "7c0ca590",
+  "browserHash": "6055f8c7",
   "optimized": {
     "vue": {
       "src": "../../../node_modules/.pnpm/vue@3.5.22/node_modules/vue/dist/vue.runtime.esm-bundler.js",
       "file": "vue.js",
-      "fileHash": "63a3b614",
+      "fileHash": "df470db9",
       "needsInterop": false
     },
     "vitepress > @vue/devtools-api": {
       "src": "../../../node_modules/.pnpm/@vue+devtools-api@7.7.7/node_modules/@vue/devtools-api/dist/index.js",
       "file": "vitepress___@vue_devtools-api.js",
-      "fileHash": "78f3894d",
+      "fileHash": "ea4cd44b",
       "needsInterop": false
     },
     "vitepress > @vueuse/core": {
       "src": "../../../node_modules/.pnpm/@vueuse+core@12.8.2/node_modules/@vueuse/core/index.mjs",
       "file": "vitepress___@vueuse_core.js",
-      "fileHash": "b86f35bc",
+      "fileHash": "c52e6ca3",
       "needsInterop": false
     },
     "vitepress > @vueuse/integrations/useFocusTrap": {
       "src": "../../../node_modules/.pnpm/@vueuse+integrations@12.8.2_focus-trap@7.6.5/node_modules/@vueuse/integrations/useFocusTrap.mjs",
       "file": "vitepress___@vueuse_integrations_useFocusTrap.js",
-      "fileHash": "edccf9d3",
+      "fileHash": "b00b8b11",
       "needsInterop": false
     },
     "vitepress > mark.js/src/vanilla.js": {
       "src": "../../../node_modules/.pnpm/mark.js@8.11.1/node_modules/mark.js/src/vanilla.js",
       "file": "vitepress___mark__js_src_vanilla__js.js",
-      "fileHash": "3298319c",
+      "fileHash": "5d840867",
       "needsInterop": false
     },
     "vitepress > minisearch": {
       "src": "../../../node_modules/.pnpm/minisearch@7.2.0/node_modules/minisearch/dist/es/index.js",
       "file": "vitepress___minisearch.js",
-      "fileHash": "c1d5504e",
+      "fileHash": "a0804046",
       "needsInterop": false
     },
     "nprogress-v2/dist/index.js": {
       "src": "../../../node_modules/.pnpm/nprogress-v2@1.1.10/node_modules/nprogress-v2/dist/index.js",
       "file": "nprogress-v2_dist_index__js.js",
-      "fileHash": "279344b8",
+      "fileHash": "bbbbbefd",
       "needsInterop": true
+    },
+    "@fancyapps/ui": {
+      "src": "../../../node_modules/.pnpm/@fancyapps+ui@6.1.0/node_modules/@fancyapps/ui/dist/index.js",
+      "file": "@fancyapps_ui.js",
+      "fileHash": "3266331f",
+      "needsInterop": false
     }
   },
   "chunks": {

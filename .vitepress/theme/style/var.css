@@ -100,6 +100,12 @@
     --vp-button-brand-border: #E4B967;
     --vp-button-brand-bg: #191919;
     --vp-button-brand-hover-bg: #606060;
+
+
+    --vp-c-text-1: #dfdfd6;
+    --vp-c-text-2: #98989f;
+    --vp-c-text-3: #6a6a71;
+
     animation: rainbow 6s linear infinite;
 }
 .VPFeatures .items{

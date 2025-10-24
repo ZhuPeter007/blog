@@ -6,6 +6,7 @@ import HomeUnderline from "./components/HomeUnderline.vue"
 import HomeHeroRight from "./components/HomeHeroRight.vue"
 import update from "./components/update.vue"
 
+import { bindFancybox, destroyFancybox } from './components/ImgViewer' // 图片查看器
 import { NProgress } from 'nprogress-v2/dist/index.js' // 进度条组件
 import 'nprogress-v2/dist/index.css' // 进度条样式
 
@@ -30,11 +31,19 @@ export default {
       NProgress.configure({ showSpinner: true })
       router.onBeforeRouteChange = () => {
         NProgress.start() // 开始进度条
+        destroyFancybox() // 销毁图片查看器
       }
       router.onAfterRouteChanged = () => {
         NProgress.done() // 停止进度条
+        bindFancybox() // 绑定图片查看器
       }
     }
-  }
+
+    //
+
+
+
+
+  },
 }
 
