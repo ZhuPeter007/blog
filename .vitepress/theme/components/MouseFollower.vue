@@ -12,7 +12,7 @@ const canvas = ref(null);
 let ctx = null;
 const trailPoints = [];
 const MOUSE_CONFIG = {
-  MAX_LENGTH: 8,
+  MAX_LENGTH: 6,
   COLOR_START: [0, 186, 173, 0.2],
   COLOR_END: [228, 185, 103, 1],
   // 新增圆球配置

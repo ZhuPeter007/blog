@@ -6,6 +6,7 @@ import HomeUnderline from "./components/HomeUnderline.vue"
 import HomeHeroRight from "./components/HomeHeroRight.vue"
 import update from "./components/update.vue"
 import MouseFollower from './components/MouseFollower.vue'
+import MouseClick from './components/MouseClick.vue'
 
 import { bindFancybox, destroyFancybox } from './components/ImgViewer' // 图片查看器
 import { NProgress } from 'nprogress-v2/dist/index.js' // 进度条组件
@@ -22,6 +23,7 @@ export default {
     return h(DefaultTheme.Layout, null, {
       'home-hero-image': () => h(HomeHeroRight),
       'layout-top': () => h(MouseFollower),
+      'layout-bottom': () => h(MouseClick),
     })
   },
   enhanceApp({ app, router, siteData }) {
