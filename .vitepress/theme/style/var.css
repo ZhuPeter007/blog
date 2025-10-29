@@ -87,7 +87,6 @@
 :root {
     /* 标题渐变背景 */
     --vp-home-hero-name-background: linear-gradient(90deg, rgba(0, 186, 173, 1) 0%, rgba(228, 185, 103, 1) 100%);
-    /*--vp-home-hero-name-background: linear-gradient(90deg, rgba(0, 186, 173, 1) 0%, rgb(225, 212, 187) 100%);*/
     /*--vp-home-hero-image-filter: blur(180px); */
     --vp-home-hero-image-background-image:none;
 

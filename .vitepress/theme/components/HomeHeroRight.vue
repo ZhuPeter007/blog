@@ -89,8 +89,8 @@ onMounted(() => {
 
 .domain2 .cover{
   background: radial-gradient(50% 50% at 50% 50%, transparent 0%, #191919 100%);
-  width: 400px;
-  height: 400px;
+  width: 402px;
+  height: 402px;
   position: absolute;
 }
 </style>

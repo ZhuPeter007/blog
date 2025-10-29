@@ -9,10 +9,10 @@
     }
 
 }
-
-.VPDoc .container .content .content-container .main{
+.emerge-anim {
     animation: emerge 1s ease-in-out;
 }
-.VPDoc .container .content .content-container .main.no-animation{
-    animation: none;
+.VPDoc .content-container .vp-doc h1{
+    display: flex;
+    align-items: center;
 }
