@@ -5,7 +5,7 @@ export const patchH1 = ()=>{
     if (h1 && !h1.querySelector('img')) {
         const img = document.createElement('img')
         // 1到14的随机整数
-        img.src = `/blog/public/cloud/clouding${Math.floor(Math.random() * 13 + 1)}.svg`
+        img.src = `/blog/cloud/clouding${Math.floor(Math.random() * 13 + 1)}.svg`
         img.style.height = '1em'
         img.style.marginLeft = '0.5em'
         h1.appendChild(img)
