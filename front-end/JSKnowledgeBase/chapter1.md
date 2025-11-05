@@ -3,7 +3,7 @@
 ## 有什么类型
 JavaScript中的数据类型如下：
 
-![](https://cdn.nlark.com/yuque/0/2025/png/42807293/1748875041346-9270b1d2-58bd-4924-8315-a904adafa33c.png)
+![](/public/JSKBImgs/1/1.png)
 
 其中`简单类型`是栈内存，值引用；`引用类型`是堆内存，地址引用。
 
@@ -15,7 +15,7 @@ JavaScript中的数据类型如下：
 
 ## 类型转换
 ### 先看number之间的转换：
-![](https://cdn.nlark.com/yuque/0/2025/png/42807293/1748875727923-c4d73a50-89f5-49f6-9836-c8b139cb5f5a.png)
+![](/public/JSKBImgs/1/2.png)
 
 还有一个小点，`console.log(0.3-0.2)`，它的运行结果并不是0.1，而是0.099998，原因是`number`里又分`int`和`float`这种小的类型
 
@@ -117,15 +117,15 @@ undefined + 1 // NaN
 这是有迹可循的，加减乘除运算遵循以下规则：
 
 #### 1.尝试把运算符两侧的变量变成Number类型，此过程中：
-`true=1`
+`true -> 1`
 
-`false=0`
+`false -> 0`
 
-`null=0`
+`null  -> 0`
 
-`undefined=NaN`
+`undefined = NaN`
 
-`空字符串""=0`
+`空字符串"" -> 0`
 
 `普通字符串：尝试把整个内容转换为Number，结果是Number或NaN`
 
