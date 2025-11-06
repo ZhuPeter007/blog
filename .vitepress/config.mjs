@@ -30,14 +30,14 @@ export default defineConfig({
       {
         text: '前端相关',
         items:[
-          { text: 'Vue源码', link: '/front-end/VueSourceCode/preface' },
-          { text: 'JS知识库', link: '/front-end/JSKnowledgeBase/chapter1' },
+          { text: 'Vue源码心得', link: '/front-end/VueSourceCode/preface' },
+          { text: 'JS知识库笔记', link: '/front-end/JSKnowledgeBase/chapter1' },
         ],
       },
       {
         text: '后端相关',
         items:[
-          { text: 'FastAPI', link: '/front-end/start' },
+          { text: 'FastAPI手册', link: '/back-end/FastAPI/chapter1' },
         ],
       },
       {
@@ -50,7 +50,7 @@ export default defineConfig({
 
     //专属侧边栏（特殊路径生效）
     sidebar: {
-      //Vue源码
+      //Vue源码心得
       '/front-end/VueSourceCode/': [
         {
           text: 'Vue源码',
@@ -71,7 +71,7 @@ export default defineConfig({
           ]
         }
       ],
-      //JS知识库
+      //JS知识库笔记
       '/front-end/JSKnowledgeBase/': [
           {
             text: 'JS知识库',
@@ -132,11 +132,29 @@ export default defineConfig({
             ]
           }
       ],
-      // 后端开发
-      '/back-end/': [
+      //FastAPI收藏
+      '/back-end/FastAPI': [
         {
           text: 'API 参考',
-          items: ['/api/core', '/api/utils']
+          collapsible: true,
+          items: [
+              {
+                text: '一 FastAPI介绍',
+                link: '/back-end/FastAPI/chapter1'
+              },
+            {
+              text: '二 FastAPI两个核心组件',
+              link: '/back-end/FastAPI/chapter2'
+            },
+            {
+              text: '三 第一个接口的创建',
+              link: '/back-end/FastAPI/chapter3'
+            },
+            {
+              text: '四 ORM操作',
+              link: '/back-end/FastAPI/chapter4'
+            },
+          ]
         }
       ]
     },
