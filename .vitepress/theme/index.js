@@ -33,6 +33,7 @@ export default {
 
     app.component('HomeUnderline', HomeUnderline)
     app.component('update', update)
+    app.component('CustomDOC', CustomDOC)
 
     if (inBrowser) {
       NProgress.configure({ showSpinner: true })

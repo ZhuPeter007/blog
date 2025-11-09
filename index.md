@@ -11,13 +11,13 @@ hero:
     alt: VitePress Logo
   actions:
     - theme: brand
-      text: Markdown 示例
-      link: /markdown-examples
+      text: Fast API
+      link: /back-end/FastAPI/chapter1.md
     - theme: brand
-      text: API 示例
-      link: /api-examples
+      text: JS 知识库
+      link: /front-end/JSKnowledgeBase/chapter1.md
     - theme: brand
-      text: 序章
+      text: Vue 源码心得
       link: /front-end/VueSourceCode/preface.md
 
 features:

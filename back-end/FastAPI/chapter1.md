@@ -4,6 +4,8 @@
 
 
 > FastAPI官网：https://fastapi.tiangolo.com/zh/
+> 
+> ( 官网的文档在我看来很详细了,本文档只做快速回顾知识点 )
 
 
 FastAPI 是一个现代、快速（高性能）的 Web 框架，用于构建 API。它基于 Python

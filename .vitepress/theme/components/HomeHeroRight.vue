@@ -59,7 +59,7 @@ onMounted(() => {
 .domain2 .show{
   background-color: #888888;
   position: relative;
-  animation: rotating 14s infinite linear;
+  animation: rotating 24s infinite linear;
   left: 140px;
   top: 120px;
 }
@@ -71,7 +71,7 @@ onMounted(() => {
 }
 .domain2 .show  div img{
   max-width: none;
-  animation: reversal 14s infinite linear;
+  animation: reversal 24s infinite linear;
 }
 
 .domain2 .show .item-0  { transform: translate(0, -240px); }               /* (0°) 顶部 */
