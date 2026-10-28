@@ -4,9 +4,9 @@ layout: home
 
 hero:
   name: '你好，我是Leo'
-  text: '👋欢迎来到我的网站'
-  tagline: '<br>一个无名小卒的知识库与博客<br>不仅仅是热爱'
-  image: 
+  text: '这是个人技术文档'
+  tagline: '<br>也是一个无名小卒的知识库与博客<br>👋不仅仅是热爱'
+  image:
     src: /pixelHorse.svg
     alt: VitePress Logo
   actions:

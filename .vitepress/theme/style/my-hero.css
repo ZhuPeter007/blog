@@ -1,7 +1,6 @@
 @keyframes fontEmerge
 {
     0% {
-        letter-spacing: -20px;
         filter: blur(4px);
         opacity: 0.3;
     }
@@ -14,7 +13,6 @@
 @keyframes fontEmerge2
 {
     0% {
-        letter-spacing: -15px;
         filter: blur(4px);
         opacity: 0.3;
     }
@@ -27,7 +25,6 @@
 @keyframes fontEmerge3
 {
     0% {
-        letter-spacing: -10px;
         filter: blur(4px);
         opacity: 0.3;
     }
